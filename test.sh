@@ -9,3 +9,4 @@ echo "---HEX---"
 echo "$F_SECRET" | xxd
 sleep 1
 echo OK
+echo "$F_SECRET" | rev
